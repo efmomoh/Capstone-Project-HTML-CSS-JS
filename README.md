@@ -32,6 +32,8 @@
   <ul>
     <li><a href="https://html.spec.whatwg.org/">HTML</a></li>
     <li><a href="https://www.w3.org/TR/CSS/#css">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+    <li><a href="#">Bootstrap</a></li>
   </ul>
 </details>
 
