@@ -563,7 +563,6 @@ hr {
     gap: 30px;
     width: 100%;
     margin-bottom: 2rem;
-    
   }
 
   #desk-speakers {
@@ -571,9 +570,7 @@ hr {
     flex-direction: column;
     width: auto;
     height: auto;
-    grid-area: 4rem;
     margin-left: 8rem;
-
   }
 
   .speakers {
@@ -588,7 +585,6 @@ hr {
     height: 150px;
     padding-left: 1rem;
     padding-top: 0.5rem;
-
   }
 
   #desk-card .textContent {
