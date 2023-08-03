@@ -127,7 +127,7 @@ If you like this project please give it a star and follow me on GitHub LinkedIn 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank my Microverse studying partners, morning session, standup team and the entire team at Microverse for aiding and encouraging me and for making this capstone project a success.
+I would like to thank Creative Commons for their hard work put in as a team for this awesome UX Design. Hence, this project was built based on Ceative Commons legal designs, thanks team for the success.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
