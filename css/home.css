@@ -356,7 +356,7 @@ hr {
 
   .deskList3 {
     display: flex;
-    gap: 40px;
+    gap: 50px;
     margin-top: 1.8rem;
   }
 
@@ -381,11 +381,11 @@ hr {
 
   .campaign {
     color: #ec4327;
-    border: 2px solid #ec4327;
-    font-size: 16px;
-    padding: 0.2px;
-    letter-spacing: -0.05em;
+    border: 1px solid #ec4327;
+    font-size: 12px;
     width: auto;
+    height: 6rem;
+    padding: 5px;
   }
 
   .program,
