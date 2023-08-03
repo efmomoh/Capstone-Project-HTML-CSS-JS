@@ -41,7 +41,7 @@
 - Add the test file and node modules to the .gitignore file🚀
 - Add the styling
 - Set up the home mobile page
-- Set up the about mobile page
+- Set up the About Mobile page
 - Desktop layout for both home and about page
 - Deploy application live online
 
@@ -92,7 +92,7 @@ To run the project,
 ```
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- - [Live Demo Link](https://github.com/efmomoh/Capstone-Project/deployments/github-pages)
+ - [Live Demo Link](https://efmomoh.github.io/Capstone-Project/)
 
 
 ## 👥 Author <a name="authors"></a>
