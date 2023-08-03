@@ -112,7 +112,6 @@ To run the project,
 - Adds mobile menu toogler
 - Desktop version
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 contributing <a name="contributing"></a>
