@@ -94,7 +94,7 @@ To run the project,
 ```
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- - [Live Demo Link](https://github.com/efmomoh/Capstone-Project/deployments/github-pages)
+ - [Live Demo Link](https://efmomoh.github.io/Capstone-Project/)
 
 
 ## 👥 Author <a name="authors"></a>
@@ -118,7 +118,7 @@ To run the project,
 
 ## 🤝 contributing <a name="contributing"></a>
 
-You are welcome, and click <a href="https://github.com/efmomoh/Capstone-Project.git/issues">here</a> for contribution, issues, and feature request 🙏
+You are welcome, and click <a href="https://github.com/efmomoh/Capstone-Project/issues">here</a> for contribution, issues, and feature request 🙏
 
 ## ⭐️ Show your support <a name="support"></a>
 

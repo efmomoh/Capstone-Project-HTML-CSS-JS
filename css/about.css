@@ -385,10 +385,6 @@ hr {
     display: none;
   }
 
-  /* body {
-        height: 900px;
-    } */
-
   #deskNav2 {
     position: fixed;
     overflow: hidden;
@@ -411,7 +407,7 @@ hr {
     position: fixed;
     display: flex;
     overflow: hidden;
-    margin-top: -7.5rem;
+    margin-top: -7rem;
     margin-left: -1rem;
     margin-right: -2rem;
     width: 100%;
@@ -420,8 +416,8 @@ hr {
 
   .deskList3 {
     display: flex;
-    gap: 40px;
-    margin-top: 1.8rem;
+    gap: 50px;
+    margin-top: 1.5rem;
   }
 
   #deskBgImg {
@@ -445,11 +441,11 @@ hr {
 
   .campaign {
     color: #ec4327;
-    border: 2px solid #ec4327;
-    font-size: 16px;
-    padding: 0.2px;
-    letter-spacing: -0.03em;
-    width: auto;
+    border: #ec4327;
+    width: 25%;
+    height: 6rem;
+    padding: 10px;
+    width: 30vw;
   }
 
   .program,
