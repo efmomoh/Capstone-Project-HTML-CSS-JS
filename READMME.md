@@ -92,7 +92,7 @@ To run the project,
 ```
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- - [Live Demo Link](https://efmomoh.github.io/Capstone-Project/)
+ - [Live Demo Link](https://efmomoh.github.io/-Project/)
 
 
 ## 👥 Author <a name="authors"></a>

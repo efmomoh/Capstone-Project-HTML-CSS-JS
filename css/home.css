@@ -103,6 +103,7 @@ strong {
 .h4 {
   background-color: #ff4f38;
   width: 85%;
+  margin-bottom: 1rem;
 }
 
 .h5::after {
@@ -156,17 +157,31 @@ strong {
   background-color: coral;
 }
 
-#card {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  height: auto;
+.card-container {
+  margin-left: -25px;
+  padding-left: -5rem;
+}
+
+.card-container .count {
+  display: flex;
   gap: 1rem;
-  margin-bottom: 0.5rem;
+  padding-left: 0;
+  height: auto;
+}
+
+.img-container {
+  width: 100%;
+  height: auto;
+}
+
+.textContent {
+  width: 100%;
+  margin-top: -0.2rem;
 }
 
 .image {
-  width: 110px;
-  height: 110px;
+  width: 150px;
+  height: 150px;
 }
 
 .name {
@@ -227,7 +242,8 @@ hr {
   #desk-speakers,
   .address,
   .footer,
-  .speaker-section-two {
+  .speaker-section-two,
+  .ccLogo {
     display: none;
   }
 
@@ -291,23 +307,6 @@ hr {
     font-weight: normal;
     text-decoration: none;
   }
-
-  /* dynamic styles  */
-
-  .speaker-section-one {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    list-style-type: none;
-  }
-
-  #card {
-    border: 1px solid #ccc;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 /* @MEDIA QUERY FOR  HOME PAGE DESKTOP VERSION  */
@@ -321,7 +320,8 @@ hr {
   #deskMenuBarNone,
   #deskNav1,
   .join-link,
-  #mob-speaker-container {
+  #mob-speaker-container,
+  .speaker-section-one {
     display: none;
   }
 
@@ -356,7 +356,7 @@ hr {
 
   .deskList3 {
     display: flex;
-    gap: 40px;
+    gap: 50px;
     margin-top: 1.8rem;
   }
 
@@ -381,11 +381,11 @@ hr {
 
   .campaign {
     color: #ec4327;
-    border: 2px solid #ec4327;
-    font-size: 16px;
-    padding: 0.2px;
-    letter-spacing: -0.03em;
+    border: 1px solid #ec4327;
+    font-size: 12px;
     width: auto;
+    height: 6rem;
+    padding: 5px;
   }
 
   .program,
@@ -449,7 +449,7 @@ hr {
 
   #main-program {
     background-color: #282b32;
-    height: 20rem;
+    height: auto;
   }
 
   #desk-program {
@@ -466,15 +466,20 @@ hr {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 10px;
     height: auto;
+    transition: all 1s ease-in-out;
   }
 
   #activities li {
     display: grid;
     grid-template-columns: 1fr;
-    margin-top: -1em;
     place-items: center;
     gap: 0.5rem;
+    height: auto;
     background-color: #3b3e45;
+  }
+
+  #activities li:hover {
+    border: 2px solid #d3d3d3;
   }
 
   #activities .proImg {
@@ -541,43 +546,49 @@ hr {
     background-color: #f8f8f8;
   }
 
-  #card {
+  .card-desk-bg {
     background-image: url('/images/speaker-bg.jpeg');
     background-repeat: no-repeat;
-    flex-basis: 50%;
-    padding: 10px 0 0 10px;
-    background-size: 40px 40px;
+    flex-basis: 30%;
+    background-size: 80px 80px;
     width: auto;
+    height: auto;
+    gap: 5rem;
+  }
+
+  #card-desk {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    place-items: center;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 2rem;
   }
 
   #desk-speakers {
     display: flex;
     flex-direction: column;
     width: auto;
-    margin-left: 12rem;
-    margin-right: 12.5rem;
     height: auto;
+    margin-left: 8rem;
   }
 
   .speakers {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 25px;
-    height: 40rem;
-  }
-
-  #cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    place-items: center;
-    padding: 5px;
-    gap: 20px;
+    height: auto;
+    width: 100%;
   }
 
   .image {
-    width: 130px;
-    height: 140px;
-    margin-top: -0.5rem;
+    width: 140px;
+    height: 150px;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  #desk-card .textContent {
+    margin-top: 1.5rem;
   }
 
   .name {
@@ -586,8 +597,10 @@ hr {
     font-weight: 700;
     line-height: 28px;
     letter-spacing: -0.02em;
-    text-align: left;
-    margin-top: 1rem;
+    text-align: center;
+    margin-top: 0.8rem;
+    width: 100%;
+    height: auto;
   }
 
   .info1 {
@@ -598,6 +611,7 @@ hr {
     font-weight: 700;
     line-height: 16px;
     text-align: left;
+    height: auto;
   }
 
   .info2 {
@@ -606,8 +620,8 @@ hr {
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
-    letter-spacing: -0.01em;
     text-align: left;
+    height: auto;
   }
 
   hr {
@@ -639,7 +653,7 @@ hr {
 
   .address {
     background-color: #414246;
-    height: 25vh;
+    height: auto;
   }
 
   .address1 {

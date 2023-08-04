@@ -306,7 +306,8 @@ hr {
   #deskNav3,
   .fifa,
   .logo-info,
-  .plus {
+  .plus,
+  .ccLogo {
     display: none;
   }
 
@@ -419,8 +420,8 @@ hr {
 
   .deskList3 {
     display: flex;
-    gap: 40px;
-    margin-top: 1.8rem;
+    gap: 50px;
+    margin-top: 1.5rem;
   }
 
   #deskBgImg {
@@ -444,11 +445,11 @@ hr {
 
   .campaign {
     color: #ec4327;
-    border: 2px solid #ec4327;
-    font-size: 16px;
-    padding: 0.2px;
-    letter-spacing: -0.03em;
+    border: 1px solid #ec4327;
+    font-size: 12px;
     width: auto;
+    height: 4rem;
+    padding: 5px;
   }
 
   .program,
@@ -467,12 +468,11 @@ hr {
 
   .fifa {
     width: 100%;
-    margin-left: 35rem;
+    margin-left: 33rem;
     font-family: 'Lato', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 25px;
-    letter-spacing: 0;
     text-align: center;
     color: #000;
     height: auto;
