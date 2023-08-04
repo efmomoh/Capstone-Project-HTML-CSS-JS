@@ -20,7 +20,7 @@
 
 .header {
   padding-top: 5rem;
-  background-image: url('/images/hero-bg-mobile.png');
+  background-image: url('images/hero-bg-mobile.png');
   height: 30rem;
   width: 100%;
   background-color: #868686;
@@ -361,7 +361,7 @@ hr {
   }
 
   #deskBgImg {
-    background-image: url('/images/hero-bg-desktop.png');
+    background-image: url('images/hero-bg-desktop.png');
     height: 40rem;
     width: auto;
     margin-top: 4rem;
@@ -547,7 +547,7 @@ hr {
   }
 
   .card-desk-bg {
-    background-image: url('/images/speaker-bg.jpeg');
+    background-image: url('images/speaker-bg.jpeg');
     background-repeat: no-repeat;
     flex-basis: 30%;
     background-size: 80px 80px;
