@@ -21,7 +21,7 @@
 
 # 📖 HTML/CSS & JavaScript capstone project - Conference page<a name="about-project"></a>
 
-- Portfolio: HTML/CSS & JavaScript capstone project - Conference page is my first Microverse Capstone project. In this project, we use HTML, CSS and JavaScript by adding an index and style file, we also used linters to analyze our source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
+- Portfolio: HTML/CSS & JavaScript capstone project - The conference page is my first Microverse Capstone project. In this project, we use HTML, CSS, and JavaScript by adding an index and style file, we also used linters to analyze our source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -94,7 +94,7 @@ To run the project,
 ```
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- - [Live Demo Link](https://efmomoh.github.io/Capstone-Project/)
+ - [Live Demo Link](https://efmomoh.github.io/Capstone-Project-HTML-CSS-JS/)
 
 
 ## 👥 Author <a name="authors"></a>
@@ -118,7 +118,7 @@ To run the project,
 
 ## 🤝 contributing <a name="contributing"></a>
 
-You are welcome, and click <a href="https://github.com/efmomoh/Capstone-Project/issues">here</a> for contribution, issues, and feature request 🙏
+You are welcome, and click <a href="https://github.com/efmomoh/Capstone-Project-HTML-CSS-JS/issues">here</a> for contribution, issues, and feature request 🙏
 
 ## ⭐️ Show your support <a name="support"></a>
 
