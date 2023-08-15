@@ -47,7 +47,7 @@ function createSpeakers() {
   const person = document.querySelector('.speaker-section-one');
   featuredSpeakers.forEach((speaker) => {
     const orator = `
-    <ul class="-container">
+    <ul class="card-container">
       <li class="count">
           <div class="img-container">
               <img class="image" src="${speaker.image}" alt="mr-momoh-image">
@@ -70,7 +70,7 @@ function createSpeakers() {
   }
 }
 
-createSpeakers(speaker);
+createSpeakers();
 
 const moreBtn = document.querySelector('.moreBtn');
 moreBtn.addEventListener('click', () => {
