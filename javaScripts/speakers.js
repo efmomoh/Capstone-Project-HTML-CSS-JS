@@ -70,7 +70,7 @@ function createSpeakers() {
   }
 }
 
-createSpeakers(speaker);
+createSpeakers();
 
 const moreBtn = document.querySelector('.moreBtn');
 moreBtn.addEventListener('click', () => {
